@@ -1,0 +1,20 @@
+# Dépendances pour le Convertisseur de Playlists Spotify ↔ Deezer
+
+# API Spotify - Bibliothèque officielle pour l'API Spotify
+spotipy>=2.22.1
+
+# Requêtes HTTP - Pour les appels API Deezer et l'authentification OAuth
+requests>=2.28.0
+
+# Support HTTP - Utilisé par requests et spotipy
+urllib3>=1.26.0
+
+# Modules Python standard utilisés (pas besoin d'installation) :
+# - json : Manipulation des données JSON
+# - time : Gestion des délais et timestamps  
+# - re : Expressions régulières pour le nettoyage des titres
+# - threading : Pour le serveur OAuth local
+# - http.server : Serveur HTTP pour le callback OAuth
+# - socketserver : Support du serveur TCP
+# - webbrowser : Ouverture automatique du navigateur
+# - urllib.parse : Parsing et encoding des URLs
